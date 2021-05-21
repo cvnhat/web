@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <style>
+        .menu .layer2{
+            opacity: 0;
+        }
+        .menu:hover .layer2{
+            opacity: 1;
+        }
+        .menu .layer2 ul li:hover{
+            background-color: blue;
+        }
+    </style>
+    <div class="menutop" style="width: 200px;background-color: blue; height: 50px;">
+        <ul style="list-style: none;background-color: blue;">
+            <li style="color: white; font-size: 20px; line-height: 50px;">Trang chu</li>
+            <li>
+                <div class="menu">
+                    <div class="layer1" style="color: white; font-size: 20px; line-height: 50px; margin-left:0px;">Xa Hoi</div>
+                    <div class="layer2" style="background-color: red; width: 200px; height: 130px;margin-left: 160px;margin-top:-35px;">
+                        <ul style="list-style: none;width: 200px;">
+                            <li style="font-size: 20px;line-height: 30px;color: white;margin-left: -40px;width: 200px;text-align: center;">Xa Hoi</li>
+                            <li style="font-size: 20px;line-height: 30px;color: white;margin-left: -40px;width: 200px;text-align: center;">Xa Hoi</li>
+                            <li style="font-size: 20px;line-height: 30px;color: white;margin-left: -40px;width: 200px;text-align: center;">Xa Hoi</li>
+                            <li style="font-size: 20px;line-height: 30px;color: white;margin-left: -40px;width: 200px;text-align: center;">Xa Hoi</li>
+                        </ul>   
+                    </div>
+                </div>
+            </li>
+            <li style="color: white; font-size: 20px; line-height: 50px;margin-left: -20px;margin-top: -60%;margin-left: 0px;">Kinh Te</li>
+            <li style="color: white; font-size: 20px; line-height: 50px;margin-left: 30px;margin-left: 0px;">Van Hoa</li>
+        </ul>
+    </div>
+</body>
+</html>

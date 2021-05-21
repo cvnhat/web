@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title> 
+    <style>
+        
+    </style>
+</head>
+<body > 
+    <div>
+    Ngày tháng năm sinh:
+    <select id="day">
+    </select>
+    tháng:
+    <select id="month">
+    </select>
+    năm:
+    <select id="year">
+    </select>
+    <script>
+                var i;
+                for (i=1;i<=2000;i++)
+                {  
+                    var node = document.createElement("OPTION");
+                    var textnode = document.createTextNode(i);
+                    node.appendChild(textnode);
+                    if (i<=31) {document.getElementById("day").appendChild(node);}
+                    if (i<=12) {document.getElementById("month").appendChild(node);}
+                    if (i>=1900 & i<=2000 ) {document.getElementById("year").appendChild(node);}    
+                }       
+    </script>
+
+    </div>
+</body>
+</html>

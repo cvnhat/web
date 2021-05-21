@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Events in Javascript</title>
+
+	<style>
+		.panel {
+			display: block;
+		}
+
+		.panel .panel-heading {
+			height: 30px;
+			color: white;
+			font-size: 20px;
+			padding: 10px;
+		}
+
+		.panel .panel-body {
+			background-color: grey;
+			height: 30px;
+			padding: 20px;
+		}
+
+		.button {
+			font-size: 18px;
+		}
+	</style>
+</head>
+<body>
+	<div class="panel">
+		<div class="panel-heading">
+			Giai phuong trinh bac nhat ax+b=0
+		</div>	
+		<div class="panel-body">
+			<button class="button" onclick="nhapA()">Nhap A</button>
+            <button class="button" onclick="nhapB()">Nhap B</button>
+            <button class="button" onclick="nhapC()">Nhap C</button>
+			<button class="button" onclick="printResult()">In Ket Qua</button>
+		</div>
+	</div>
+
+	<script>
+		var a, b, c;
+
+		function nhapA() {
+			a = prompt('Nhap A')
+		}
+
+		function nhapB() {
+			b = prompt('Nhap B')
+		}
+        function nhapC() {
+			c = prompt('Nhap C')
+		}
+
+		function printResult() {
+			if(a == 0) {
+				alert('Nhap a khong hop le:')
+			}else{
+				delta=b*b - 4*a*c
+				if(delta==0){
+                    alert('Phuong trinh co nghiem kep')
+                    alert(-b/a)
+                }else if(delta>0){
+                    x1=(-b+delta**(1/2))/(2*a)
+                    x2=(-b-delta**(1/2))/(2*a)
+                    alert('Nghiem thu nhat cua phuong trinh la: ')
+                    alert(x1)
+                    alert('Nghiem thu hai cua phuong trinh la: ')
+                    alert(x2)
+                }
+			}
+		}
+	</script>
+</body>
+</html>

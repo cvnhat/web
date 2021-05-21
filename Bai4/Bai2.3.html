@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <style>
+        .menu .layer2{
+            opacity: 0;
+        }
+        .menu:hover .layer2{
+            opacity: 1;
+        }
+    </style>
+    <div class="menutop" style="width: 800px;background-color: blue; height: 50px;">
+        <ul style="display: flex;list-style: none;">
+            <li style="color: white; font-size: 20px; line-height: 50px;">Trang chu</li>
+            <li>
+                <div class="menu">
+                    <div class="layer1" style="color: white; font-size: 20px; line-height: 50px; margin-left:50px;">Xa Hoi</div>
+                    <div class="layer2" style="background-color: red; width: 300px; height: 40px;">
+                        <ul style="display: flex;list-style: none;">
+                            <li style="font-size: 20px;line-height: 30px;color: white;margin-left: 20px;margin-right: 10px;">Xa Hoi</li>
+                            <li style="font-size: 20px;line-height: 30px;color: white;margin-right: 10px;">Xa Hoi</li>
+                            <li style="font-size: 20px;line-height: 30px;color: white;margin-right: 10px;">Xa Hoi</li>
+                        </ul>   
+                    </div>
+                </div>
+            </li>
+            <li style="color: white; font-size: 20px; line-height: 50px;margin-left: -150px;">Kinh Te</li>
+            <li style="color: white; font-size: 20px; line-height: 50px;margin-left: 30px">Van Hoa</li>
+        </ul>
+    </div>
+</body>
+</html>

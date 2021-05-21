@@ -1,0 +1,40 @@
+.dau img{
+    width:30%;
+    height:100%;
+}
+
+.dau hr{
+    height: 1px;
+    background-color: black;
+    width: 90%;
+    margin-left: 0;
+}
+
+.giua h1{
+    font-size:40px;
+}
+
+.giua .content{
+    display: flex;
+    width: 90%;
+}
+
+.giua .content img{
+    width: 20%;
+    height: 20%;
+}
+
+.giua .content h1{
+    font-weight: 700;
+    font-size: 27px;
+    margin-top: 0px;
+    margin-left: 30px;
+    line-height: 40px;
+}
+
+.duoi hr{
+    height: 1px;
+    background-color: black;
+    width: 90%;
+    margin-left: 0;
+}

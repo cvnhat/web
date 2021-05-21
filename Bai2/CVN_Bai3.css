@@ -1,0 +1,36 @@
+fieldset{
+    width: 340px;
+    height: 150px;
+}
+
+fieldset .mk{
+    padding-top: 40px;
+    width: 100px;
+    display: inline-block;
+}
+
+fieldset legend{
+    text-align: center;
+    padding-top: 40px; 
+    font-weight: 700;
+    font-size: 20px;
+}
+fieldset label{
+    margin-top: -30px;
+}
+
+fieldset .s1{
+    margin-top: 15px;
+    margin-left: 25px;
+    display: inline-block;
+    text-align: center;
+    border: 2px solid rgb(86, 86, 209);
+}
+
+fieldset .s2{
+    margin-top: 15px;
+    margin-left: 35px;
+    display: inline-block;
+    text-align: center;
+    border: 2px solid rgb(86, 86, 209);
+}
